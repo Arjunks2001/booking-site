@@ -1,0 +1,95 @@
+.brand {
+  display: flex;
+  /* align-items: center; */
+}
+
+.navbarDropdown{
+color: #000;
+}
+
+.navbar-nav .nav-link {
+  color:white
+  
+}
+.navbar-nav .nav-button{
+  color: black;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #6f42c1;
+    
+  }
+.offcanvas{
+  max-width: 80%;
+}
+.book-button {
+  background-color: #5143d9;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.book-button:hover {
+  background-color:#4136ae;
+  color: #ffffff;
+}
+
+/* .offcanvas-body {
+  padding: 0px;
+} */
+
+.btn-close {
+  /* background-color: black; */
+  border: 1;
+}
+
+.navbar-toggler .close-icon {
+ 
+  color: #000;
+}
+.background-img{
+  background: rgba(0, 0, 0, 0.5);
+   
+}
+
+.home-title{
+    color: white;
+}
+.explore-title{
+  color: #0b0a12;
+}
+.explore-content{
+  color: #747579;
+}
+.footer{
+  background-color: black;
+}
+.footer-img{
+  height: 60px;
+}
+.footer-content{
+  color: white;
+}
+
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+}
+.Book_stay{
+  color: #6f42c1;
+  background-color: rgb(81 67 217 / 10%);
+}
+
+.card-book{
+  background-color: rgb(81 67 217 / 10%);
+}
+.nav-open{
+  background-color: rgba(199, 196, 227, 0.1);
+  border: none;
+}

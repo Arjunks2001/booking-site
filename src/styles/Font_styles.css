@@ -1,0 +1,70 @@
+.navbar-toggler .close-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.home-title{
+    /* font-size: 80px; */
+    font-family:"Poppins", sans-serif ;
+    font-weight: 700;
+}
+
+.home-subtitle{
+    font-family:"Poppins", sans-serif ;
+    font-weight: 700;
+}
+
+.explore-title{
+    font-family:"Poppins", sans-serif ;
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.explore-content{
+    font-family:"sans-serif" ;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.footer-content{
+    font-size: 16px;
+    font-family:"sans-serif" ;
+}
+.font{
+    font-size: 17px;
+    font-weight: 700;
+}
+.btn-arrow {
+  font-size: 3rem;
+  margin-bottom: 4%;
+}
+.offer_title{
+    font-size:  40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-weight: bolder;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.close-icon {
+  font-size: 2rem;
+}
+
+
+
+.offcanvas-body ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.offcanvas-body ul li {
+  margin-bottom: 0.5rem;
+}

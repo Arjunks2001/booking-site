@@ -24,7 +24,7 @@ const Moments = () => {
             src="https://booking.webestica.com/assets/images/category/hotel/resort/04.jpg"
             alt=""
           />
-          <div class="card position-absolute z-index-6 bottom-0 m-3 p-0">
+          {/* <div class="card position-absolute z-index-6 bottom-0 m-3 p-0">
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -79,7 +79,7 @@ const Moments = () => {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="row ">

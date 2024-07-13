@@ -22,10 +22,10 @@ const Explore = () => {
             </p>
           </div>
         </div>
-        <ul class="list-inline hstack gap-4 flex-wrap justify-content-center mt-4">
-          <li class="list-inline-item">
-            <h5 class="fw-normal">
-              <i class=" me-1">
+        <ul className="list-inline hstack gap-4 flex-wrap justify-content-center mt-4">
+          <li className="list-inline-item">
+            <h5 className="fw-normal">
+              <i className=" me-1">
                 <FontAwesomeIcon
                   icon={faStar}
                   size="lg"
@@ -35,9 +35,9 @@ const Explore = () => {
               Have High Rating
             </h5>
           </li>
-          <li class="list-inline-item">
-            <h5 class="  fw-normal">
-              <i class="me-1">
+          <li className="list-inline-item">
+            <h5 className="  fw-normal">
+              <i className="me-1">
                 <FontAwesomeIcon
                   icon={faMapPin}
                   size="lg"
@@ -47,9 +47,9 @@ const Explore = () => {
               Best Locations
             </h5>
           </li>
-          <li class="list-inline-item">
-            <h5 class="  fw-normal">
-              <i class=" me-1">
+          <li className="list-inline-item">
+            <h5 className="  fw-normal">
+              <i className=" me-1">
                 <FontAwesomeIcon
                   icon={faCircleXmark}
                   size="lg"
@@ -59,9 +59,9 @@ const Explore = () => {
               Free Cancellation
             </h5>
           </li>
-          <li class="list-inline-item">
-            <h5 class="  fw-normal">
-              <i class=" me-1">
+          <li className="list-inline-item">
+            <h5 className="  fw-normal">
+              <i className=" me-1">
                 <FontAwesomeIcon
                   icon={faCreditCard}
                   size="lg"
@@ -72,58 +72,58 @@ const Explore = () => {
             </h5>
           </li>
         </ul>
-        <div class="d-sm-flex justify-content-center align-items-center mt-4">
-          <div class="d-flex justify-content-center align-items-center text-start me-0 me-sm-4">
-            <h3 class="me-2 mb-0">4.5</h3>
+        <div className="d-sm-flex justify-content-center align-items-center mt-4">
+          <div className="d-flex justify-content-center align-items-center text-start me-0 me-sm-4">
+            <h3 className="me-2 mb-0">4.5</h3>
             <div>
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item me-0 large">
+              <ul className="list-inline mb-0">
+                <li className="list-inline-item me-0 large">
                   <FontAwesomeIcon
                     icon={faStar}
                     size="2xs"
                     style={{ color: "#FFD43B" }}
                   />
-                  <i class="fas fa-star text-warning"></i>
+                  <i className="fas fa-star text-warning"></i>
                 </li>
-                <li class="list-inline-item me-0 large">
+                <li className="list-inline-item me-0 large">
                   <FontAwesomeIcon
                     icon={faStar}
                     size="2xs"
                     style={{ color: "#FFD43B" }}
                   />
-                  <i class="fas fa-star text-warning"></i>
+                  <i className="fas fa-star text-warning"></i>
                 </li>
-                <li class="list-inline-item me-0 large">
+                <li className="list-inline-item me-0 large">
                   <FontAwesomeIcon
                     icon={faStar}
                     size="2xs"
                     style={{ color: "#FFD43B" }}
                   />
-                  <i class="fas fa-star text-warning"></i>
+                  <i className="fas fa-star text-warning"></i>
                 </li>
-                <li class="list-inline-item me-0 large">
+                <li className="list-inline-item me-0 large">
                   <FontAwesomeIcon
                     icon={faStar}
                     size="2xs"
                     style={{ color: "#FFD43B" }}
                   />
-                  <i class="fas fa-star text-warning"></i>
+                  <i className="fas fa-star text-warning"></i>
                 </li>
-                <li class="list-inline-item me-0 large">
+                <li className="list-inline-item me-0 large">
                   <FontAwesomeIcon
                     icon={faStarHalfStroke}
                     size="2xs"
                     style={{ color: "#FFD43B" }}
                   />
-                  <i class="fas fa-star-half-alt text-warning"></i>
+                  <i className="fas fa-star-half-alt text-warning"></i>
                 </li>
               </ul>
-              <p class="mb-0 small">Clients Love Us!</p>
+              <p className="mb-0 small">Clients Love Us!</p>
             </div>
           </div>
 
           <div>
-            <a href="#" class="btn btn-lg btn-dark mb-0 rounded-4">
+            <a href="#" className="btn btn-lg btn-dark mb-0 rounded-4">
               Explore now
             </a>
           </div>

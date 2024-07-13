@@ -7,7 +7,7 @@ import { Favorite_Rooms } from './Totaldatas';
 
 const RoomCard = ({ room }) => {
     return (
-        <div className="card mb-3" style={{ maxWidth: '540px', position: 'absolute', bottom: '20px', right: '20px' }}>
+        <div className="card mb-3 position-absolute" style={{ maxWidth: '540px', bottom: '20px', right: '20px' }}>
             <div className="card-body">
                 <h5 className="card-title">{room.title}</h5>
                 <p className="card-text">{room.SQ_Ft} • {room.SQ_M}</p>
@@ -17,7 +17,7 @@ const RoomCard = ({ room }) => {
                     <li>✔ {room.facility_two}</li>
                     <li>✔ {room.facility_three}</li>
                 </ul>
-                <a href="#" className="btn bg-secondary-subtle">Reserve</a>
+                <a href="#" className="btn bg-secondary-subtle">Reserve.</a>
             </div>
         </div>
     );
@@ -26,11 +26,11 @@ const RoomCard = ({ room }) => {
 const Rooms = () => {
     return (
         <div className="container-fluid px-lg-5 mt-5">
-            <div class="row mb-4">
-			<div class="col-xxl-8 mx-auto mb-3">
-				<div class="d-sm-flex justify-content-between align-items-center">
-					<h2 class="mb-0">Our Favorite Rooms</h2>
-					<a href="#" class="btn btn-dark mb-0 d-grid">See all rooms</a>
+            <div className="row mb-4">
+			<div className="col-xxl-8 mx-auto mb-3">
+				<div className="d-sm-flex justify-content-between align-items-center">
+					<h2 className="mb-0">Our Favorite Rooms</h2>
+					<a href="#" className="btn btn-dark mb-0 d-grid" >See all rooms</a>
 				</div>
 			</div>
 		</div>

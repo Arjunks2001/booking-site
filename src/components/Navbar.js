@@ -19,7 +19,7 @@ const Navbar = () => {
                 {/* <img src='https://booking.webestica.com/assets/images/category/hotel/resort/bg-01.jpg'></img> */}
          <nav className="navbar navbar-expand-lg custom-navbar">
         
-                <a className="navbar-brand brand mt-lg-3 " href="#home">
+                <a className="navbar-brand brand mt-lg-0 " href="#home">
                     <img
                         src="https://booking.webestica.com/assets/images/logo-light.svg"
                         width=" "

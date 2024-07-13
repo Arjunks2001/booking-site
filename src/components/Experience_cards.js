@@ -14,7 +14,7 @@ const responsive = {
 const ExperienceCards = () => {
   const items = experienceData.map((card, index) => (
     <div className="item container" key={index}>
-      <div className="card col-lg-12 col-sm-10 h-100 rounded-5">
+      <div className="card col-md-12 h-100 rounded-5">
         <img src={card.imgSrc} className="card-img-top" alt={card.title} />
         <div className="card-img-overlay d-flex flex-column justify-content-end text-white">
           <h5 className="card-title">{card.title}</h5>

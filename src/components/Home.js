@@ -23,12 +23,12 @@ const Home = () => {
           </div>
         </div>
         <div className="row ">
-          <h3 class="home-subtitle text-white mt-3 ">
+          <h3 className="home-subtitle text-white mt-3 ">
             Discover a New Look of Luxury Resorts.
           </h3>
         </div>
 
-        <button type="button" class="btn btn-dark m-3 p-3 py-2 mb-5 rounded-4 ">
+        <button type="button" className="btn btn-dark m-3 p-3 py-2 mb-5 rounded-4 ">
           Discover More
         </button>
       </div>

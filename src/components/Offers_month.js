@@ -28,12 +28,12 @@ const Offers_month = () => {
               <button type="button" class="btn-arrow btn absolute">
                 <FontAwesomeIcon
                   icon={faCircleRight}
-                  style={{ color: "#56448d" }}
+                  style={{ color: "rgb(81 67 217)" }}
                 />
               </button>
             </div>
 
-            <div class="card-body mt-lg-4  ">
+            <div class="card-body mt-4  ">
               <p class="card-title font fs-0 ">View All Offers</p>
             </div>
           </div>

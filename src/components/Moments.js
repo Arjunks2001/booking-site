@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faThumbsUp,faStar, faHeadphonesSimple} from '@fortawesome/free-solid-svg-icons'
 
 const Moments = () => {
   return (
@@ -85,46 +87,46 @@ const Moments = () => {
       <div className="row ">
         <div className="col-xxl-6">
           {/* carosual  */}
-          <div id="carouselExample1" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+          <div id="carouselExample1" className="carousel slide">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
                 <img
                   src="https://booking.webestica.com/assets/images/category/hotel/resort/06.jpg"
-                  class="d-block w-100 rounded-4"
+                  className="d-block w-100 rounded-4"
                   alt="..."
                 />
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img
                   src="https://booking.webestica.com/assets/images/category/hotel/resort/05.jpg"
-                  class="d-block w-100 rounded-4"
+                  className="d-block w-100 rounded-4"
                   alt="..."
                 />
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExample1"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#carouselExample1"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
@@ -140,8 +142,8 @@ const Moments = () => {
           <div className="row g-4">
             <div className="col-12">
               <div className="d-flex">
-                <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle h-100">
-                  <i class="fa-regular fa-thumbs-up p-4"></i>
+                <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-5 h-100">
+                <FontAwesomeIcon icon={faThumbsUp} size="xl" style={{color: "#B197FC",}} />
                 </div>
                 <div className="ps-3">
                   <h3 className="fs-4 fw-bold black">Hassle Free Booking</h3>
@@ -154,8 +156,8 @@ const Moments = () => {
             </div>
             <div className="col-12">
               <div className="d-flex">
-                <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle h-100">
-                  <i class="fa-regular fa-thumbs-up p-4"></i>
+                <div className="icon-xl bg-primary bg-opacity-10 text-primary rounded-circle h-100">
+                <FontAwesomeIcon icon={faStar} size="xl" style={{color: "#f45d0b",}} />
                 </div>
                 <div className="ps-3">
                   <h3 className="fs-4 fw-bold black">Hassle Free Booking</h3>
@@ -168,8 +170,8 @@ const Moments = () => {
             </div>
             <div className="col-12">
               <div className="d-flex">
-                <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle h-100">
-                  <i class="fa-regular fa-thumbs-up p-4"></i>
+                <div className="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle h-100">
+                <FontAwesomeIcon icon={faHeadphonesSimple} size="xl" style={{color: "#e00000",}} />
                 </div>
                 <div className="ps-3">
                   <h3 className="fs-4 fw-bold black">Hassle Free Booking</h3>

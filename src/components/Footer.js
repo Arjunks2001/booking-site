@@ -12,24 +12,24 @@ const Footer = () => {
         </div>
 
         </div>
-        <ul class="list-inline col-sm-12 gap-4 flex-wrap justify-content-center text-primary-hover footer-content  mt-4">
-					<li class="list-inline-item">
-						<h5 class="fw-normal"><i class=" me-2"></i>About</h5>
+        <ul className="list-inline col-sm-12 gap-4 flex-wrap justify-content-center text-primary-hover footer-content  mt-4">
+					<li className="list-inline-item">
+						<h5 className="fw-normal"><i className=" me-2"></i>About</h5>
 					</li>
-					<li class="list-inline-item"> 
-						<h5 class="  fw-normal"><i class="me-2"></i>Terms</h5>
+					<li className="list-inline-item"> 
+						<h5 className="  fw-normal"><i className="me-2"></i>Terms</h5>
 					</li>
-					<li class="list-inline-item">
-						<h5 class="  fw-normal"><i class=" me-2"></i>Privacy</h5>
+					<li className="list-inline-item">
+						<h5 className="  fw-normal"><i className=" me-2"></i>Privacy</h5>
 					</li>	
-					<li class="list-inline-item"> 
-						<h5 class="  fw-normal"><i class=" me-2"></i>Career</h5>
+					<li className="list-inline-item"> 
+						<h5 className="  fw-normal"><i className=" me-2"></i>Career</h5>
 					</li>
-                    <li class="list-inline-item"> 
-						<h5 class="  fw-normal"><i class=" me-2"></i>Contact Us</h5>
+                    <li className="list-inline-item"> 
+						<h5 className="  fw-normal"><i className=" me-2"></i>Contact Us</h5>
 					</li>
-                    <li class="list-inline-item"> 
-						<h5 class="  fw-normal"><i class=" me-2"></i>Cookies</h5>
+                    <li className="list-inline-item"> 
+						<h5 className="  fw-normal"><i className=" me-2"></i>Cookies</h5>
 					</li>
 				</ul>
                 <div className=' text-center m-auto '>
